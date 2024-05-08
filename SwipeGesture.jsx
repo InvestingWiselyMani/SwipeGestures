@@ -7,10 +7,11 @@ export default function App() {
   const [gestureName, setGestureName] = React.useState('none');
   const [backgroundColor, setBackgroundColor] = React.useState('#fff');
 
+  //SwipeUP
   const onSwipeUp = (gestureState) => {
     setMyText('You swiped up!');
   };
-
+  //SwipeDown
   const onSwipeDown = (gestureState) => {
     setMyText('You swiped down!');
   };
